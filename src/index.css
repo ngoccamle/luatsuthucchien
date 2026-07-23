@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Quicksand', sans-serif;
+  --font-sans: 'Quicksand', sans-serif;
+}
+
+@layer base {
+  :root {
+    font-family: 'Quicksand', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  
+  body {
+    background-color: #FAF9F6;
+    color: #1A1A1A;
+    font-family: 'Quicksand', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-serif {
+    font-family: 'Quicksand', sans-serif !important;
+  }
+}
+
+/* Custom scrollbar styling for clean minimalism */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF9F6;
+}
+::-webkit-scrollbar-thumb {
+  background: #E5E1D8;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9A8C73;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Luật Sư Thực Hành - Legal Practice Blog",
+  "description": "Blog chuyên sâu chia sẻ kỹ năng thực hành nghề luật sư: tư vấn khách hàng, tranh tụng, soạn thảo hợp đồng, đàm phán và trợ lý AI giải đáp tình huống thực tế.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
